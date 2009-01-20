@@ -12,6 +12,8 @@ begin
     s.homepage = "http://github.com/technicalpickles/github-party/tree"
     s.description = "TODO"
     s.authors = ["Josh Nichols"]
+    s.add_dependency "rest-client"
+    s.add_dependency "happymapper"
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
