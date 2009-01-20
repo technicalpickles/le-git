@@ -1,0 +1,347 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.31
+Date: Tue, 20 Jan 2009 03:17:22 GMT
+Content-Type: application/xml; charset=utf-8
+Connection: keep-alive
+Set-Cookie: _github_ses=BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--884981fc5aa85daf318eeff084d98e2cff92578f; path=/; expires=Wed, 01 Jan 2020 08:00:00 GMT; HttpOnly
+Status: 200 OK
+X-Runtime: 88ms
+ETag: "fc0fe3ae9eae4c1785447a0a6930cb95"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 13822
+
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories type="array">
+  <repository>
+    <name>merb</name>
+    <watchers type="integer">15</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/merb/merb</url>
+    <fork type="boolean">false</fork>
+    <description>Merb official repository</description>
+    <forks type="integer">0</forks>
+    <homepage>http://www.merbivore.com</homepage>
+    <owner>merb</owner>
+  </repository>
+  <repository>
+    <name>merb-auth-slice-password-reset</name>
+    <watchers type="integer">3</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/ck/merb-auth-slice-password-reset</url>
+    <fork type="boolean">false</fork>
+    <description>Merb slice that adds password-reset functionality for merb-auth-based merb applications.</description>
+    <forks type="integer">2</forks>
+    <homepage></homepage>
+    <owner>ck</owner>
+  </repository>
+  <repository>
+    <name>merb-plugins</name>
+    <watchers type="integer">374</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/wycats/merb-plugins</url>
+    <fork type="boolean">false</fork>
+    <description>Merb Plugins: Even more modules to hook up your Merb installation</description>
+    <forks type="integer">54</forks>
+    <homepage>http://www.merbivore.com</homepage>
+    <owner>wycats</owner>
+  </repository>
+  <repository>
+    <name>merb_has_flash</name>
+    <watchers type="integer">13</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/ivey/merb_has_flash</url>
+    <fork type="boolean">false</fork>
+    <description>Rails' "flash" session notification system ported to Merb (See eltiare/merb_has_flash)</description>
+    <forks type="integer">3</forks>
+    <homepage>http://github.com/eltiare/merb_has_flash</homepage>
+    <owner>ivey</owner>
+  </repository>
+  <repository>
+    <name>merb_babel</name>
+    <watchers type="integer">29</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/mattetti/merb_babel</url>
+    <fork type="boolean">false</fork>
+    <description>Merb Babel is a dead simple translation/localization tool for Merb</description>
+    <forks type="integer">3</forks>
+    <homepage></homepage>
+    <owner>mattetti</owner>
+  </repository>
+  <repository>
+    <name>merb-oauth-example</name>
+    <watchers type="integer">7</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/rubymaverick/merb-oauth-example</url>
+    <fork type="boolean">false</fork>
+    <description>An example merb app that uses the merb-oauth plugin</description>
+    <forks type="integer">0</forks>
+    <homepage>http://github.com/rubymaverick/merb-oauth/tree/master</homepage>
+    <owner>rubymaverick</owner>
+  </repository>
+  <repository>
+    <name>merb_xmpp</name>
+    <watchers type="integer">15</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/mlangenberg/merb_xmpp</url>
+    <fork type="boolean">false</fork>
+    <description>A plugin for the Merb framework that allows you to send XMPP/Jabber notifications from Merb applications.</description>
+    <forks type="integer">0</forks>
+    <homepage></homepage>
+    <owner>mlangenberg</owner>
+  </repository>
+  <repository>
+    <name>merb-auth-slice-activation</name>
+    <watchers type="integer">17</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/ck/merb-auth-slice-activation</url>
+    <fork type="boolean">false</fork>
+    <description>Merb Slice that adds basic activation functionality to merb-auth.</description>
+    <forks type="integer">3</forks>
+    <homepage></homepage>
+    <owner>ck</owner>
+  </repository>
+  <repository>
+    <name>merb-openid-example</name>
+    <watchers type="integer">25</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/atmos/merb-openid-example</url>
+    <fork type="boolean">false</fork>
+    <description>an example openid consumer application written in merb using merb-auth's openid stuff</description>
+    <forks type="integer">1</forks>
+    <homepage></homepage>
+    <owner>atmos</owner>
+  </repository>
+  <repository>
+    <name>merb-messenger</name>
+    <watchers type="integer">32</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/michaelklishin/merb-messenger</url>
+    <fork type="boolean">false</fork>
+    <description>A raw prototype implementation of future Merb-messenger in Merb 1.1.</description>
+    <forks type="integer">3</forks>
+    <homepage>http://novemberain.com</homepage>
+    <owner>michaelklishin</owner>
+  </repository>
+  <repository>
+    <name>merb_wizard</name>
+    <watchers type="integer">1</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/roman/merb_wizard</url>
+    <fork type="boolean">false</fork>
+    <description>Merb plugin that provides Wizard like organization for your Merb applications</description>
+    <forks type="integer">0</forks>
+    <homepage>http://www.github.com/roman/merb_wizard/wikis</homepage>
+    <owner>roman</owner>
+  </repository>
+  <repository>
+    <name>merb-slice_dm_graph</name>
+    <watchers type="integer">1</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/collin/merb-slice_dm_graph</url>
+    <fork type="boolean">false</fork>
+    <description>A merb slice to get a slick graph view of your DataMapper Relationships. Really nice to dive into that latest greatest Merb app/slice you've been wondering about.</description>
+    <forks type="integer">0</forks>
+    <homepage></homepage>
+    <owner>collin</owner>
+  </repository>
+  <repository>
+    <name>merb_pupu</name>
+    <watchers type="integer">3</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/botanicus/merb_pupu</url>
+    <fork type="boolean">false</fork>
+    <description>Merb_pupu is a plugin system for merb's public stuff like mootools plugins, icon sets etc. It knows dependencies and it has CLI interface, so it's really easy to bundle such plugins into your app.</description>
+    <forks type="integer">0</forks>
+    <homepage></homepage>
+    <owner>botanicus</owner>
+  </repository>
+  <repository>
+    <name>merb-auth-slice-password-more</name>
+    <watchers type="integer">4</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/danski/merb-auth-slice-password-more</url>
+    <fork type="boolean">false</fork>
+    <description>[WORK IN PROGRESS] An extension to merb-auth and merb-auth-slice-password which provides RESTful creation of password resets and other items essential to the authentication user experience.</description>
+    <forks type="integer">0</forks>
+    <homepage>http://github.com/danski/merb-auth-slice-password-more/tree/master</homepage>
+    <owner>danski</owner>
+  </repository>
+  <repository>
+    <name>merb-authoring</name>
+    <watchers type="integer">4</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/migane/merb-authoring</url>
+    <fork type="boolean">false</fork>
+    <description>Incorporation of merb authoring features inside RubyLearning.org Merb course</description>
+    <forks type="integer">0</forks>
+    <homepage>http://rubylearning.org</homepage>
+    <owner>migane</owner>
+  </repository>
+  <repository>
+    <name>learning-merb</name>
+    <watchers type="integer">2</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/remi/learning-merb</url>
+    <fork type="boolean">false</fork>
+    <description>remi's merb sandbox - little apps and experiments for learning merb</description>
+    <forks type="integer">0</forks>
+    <homepage></homepage>
+    <owner>remi</owner>
+  </repository>
+  <repository>
+    <name>merb-simpledb-dm_example</name>
+    <watchers type="integer">2</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/danmayer/merb-simpledb-dm_example</url>
+    <fork type="boolean">false</fork>
+    <description>an example merb app using SimpleDB with Merb-Auth</description>
+    <forks type="integer">0</forks>
+    <homepage>http://devver.net/blog</homepage>
+    <owner>danmayer</owner>
+  </repository>
+  <repository>
+    <name>merb-core</name>
+    <watchers type="integer">731</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/wycats/merb-core</url>
+    <fork type="boolean">false</fork>
+    <description>Merb Core: All you need. None you don't.</description>
+    <forks type="integer">83</forks>
+    <homepage>http://www.merbivore.com</homepage>
+    <owner>wycats</owner>
+  </repository>
+  <repository>
+    <name>merb-more</name>
+    <watchers type="integer">413</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/wycats/merb-more</url>
+    <fork type="boolean">false</fork>
+    <description>Merb More: The Full Stack. Take what you need; leave what you don't.</description>
+    <forks type="integer">50</forks>
+    <homepage>http://www.merbivore.com</homepage>
+    <owner>wycats</owner>
+  </repository>
+  <repository>
+    <name>merb-for-rails</name>
+    <watchers type="integer">20</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/ivey/merb-for-rails</url>
+    <fork type="boolean">false</fork>
+    <description>LINKS TO Merb plugins that make the transition from Rails a little bit easier</description>
+    <forks type="integer">1</forks>
+    <homepage></homepage>
+    <owner>ivey</owner>
+  </repository>
+  <repository>
+    <name>merb_radiant</name>
+    <watchers type="integer">7</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/sbusso/merb_radiant</url>
+    <fork type="boolean">false</fork>
+    <description>a try to move radiant on merb</description>
+    <forks type="integer">1</forks>
+    <homepage></homepage>
+    <owner>sbusso</owner>
+  </repository>
+  <repository>
+    <name>fightinjoe-merb-blog</name>
+    <watchers type="integer">11</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/fightinjoe/fightinjoe-merb-blog</url>
+    <fork type="boolean">false</fork>
+    <description>Personal blog software written with Merb</description>
+    <forks type="integer">0</forks>
+    <homepage>http://www.fightinjoe.com</homepage>
+    <owner>fightinjoe</owner>
+  </repository>
+  <repository>
+    <name>merb_mart</name>
+    <watchers type="integer">48</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/myabc/merb_mart</url>
+    <fork type="boolean">false</fork>
+    <description>open-source e-commerce built on merb</description>
+    <forks type="integer">4</forks>
+    <homepage></homepage>
+    <pledgie type="integer">735</pledgie>
+    <owner>myabc</owner>
+  </repository>
+  <repository>
+    <name>merb-tmbundle</name>
+    <watchers type="integer">74</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/drnic/merb-tmbundle</url>
+    <fork type="boolean">false</fork>
+    <description>Merb bundle for TextMate (uses Ruby, Ruby on Rails, Datamapper and Sequel bundles as necessary)</description>
+    <forks type="integer">5</forks>
+    <homepage></homepage>
+    <owner>drnic</owner>
+  </repository>
+  <repository>
+    <name>merb_global</name>
+    <watchers type="integer">34</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/myabc/merb_global</url>
+    <fork type="boolean">false</fork>
+    <description>Localization (L10n) and Internationalization (i18n) support for the Merb MVC Framework</description>
+    <forks type="integer">5</forks>
+    <homepage></homepage>
+    <pledgie type="integer">736</pledgie>
+    <owner>myabc</owner>
+  </repository>
+  <repository>
+    <name>merb_annotate_models</name>
+    <watchers type="integer">3</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/jrun/merb_annotate_models</url>
+    <fork type="boolean">false</fork>
+    <description>Merb port of the Rails annotate_models plugin written by Dave Thomas</description>
+    <forks type="integer">1</forks>
+    <homepage></homepage>
+    <owner>jrun</owner>
+  </repository>
+  <repository>
+    <name>merb_can_filter</name>
+    <watchers type="integer">7</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/sintaxi/merb_can_filter</url>
+    <fork type="boolean">false</fork>
+    <description>merb plugin for filtering Markdown or Textile to HTML (also does syntax highlighting via coderay).</description>
+    <forks type="integer">0</forks>
+    <homepage></homepage>
+    <owner>sintaxi</owner>
+  </repository>
+  <repository>
+    <name>merb_hpreserve</name>
+    <watchers type="integer">1</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/jerrett/merb_hpreserve</url>
+    <fork type="boolean">false</fork>
+    <description>Merb plugin that provides Hpreserve support</description>
+    <forks type="integer">0</forks>
+    <homepage></homepage>
+    <owner>jerrett</owner>
+  </repository>
+  <repository>
+    <name>merb-tmbundle</name>
+    <watchers type="integer">3</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/adulteratedjedi/merb-tmbundle</url>
+    <fork type="boolean">false</fork>
+    <description> A Textmate Bundle for Merb</description>
+    <forks type="integer">0</forks>
+    <homepage></homepage>
+    <owner>adulteratedjedi</owner>
+  </repository>
+  <repository>
+    <name>merb-meet-aop</name>
+    <watchers type="integer">9</watchers>
+    <private type="boolean">false</private>
+    <url>http://github.com/deimos1986/merb-meet-aop</url>
+    <fork type="boolean">false</fork>
+    <description>Examples of AOP with Merb and Datamapper</description>
+    <forks type="integer">0</forks>
+    <homepage>http://mcf1986.com</homepage>
+    <owner>deimos1986</owner>
+  </repository>
+</repositories>

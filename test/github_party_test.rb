@@ -74,4 +74,16 @@ class GithubPartyTest < Test::Unit::TestCase
     end
 
   end
+
+  context "searching repositories" do
+    setup do
+      FakeWeb.register_uri('http://github.com/api/v1/xml/search/merb', :response => File.join(File.dirname(__FILE__), 'fixtures', 'search.xml'))
+
+      @repositories = GitHub::Client.search_repositories("merb")
+    end
+
+    test "size" do
+      @repositories.size.should == 30
+    end
+  end
 end
