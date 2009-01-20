@@ -13,9 +13,6 @@ class GithubPartyTest < Test::Unit::TestCase
       @user.name.should == "Josh Nichols"
     end
 
-    test "#repositories" do
-      @user.repositories.size.should == 39
-    end
 
     test "#blog" do
       @user.blog.should == "http://technicalpickles.com"
@@ -31,6 +28,49 @@ class GithubPartyTest < Test::Unit::TestCase
 
     test "#location" do
       @user.location.should == "Boston, MA"
+    end
+
+    test "#repositories size" do
+      @user.repositories.size.should == 39
+    end
+
+    context "#repositories first" do
+      setup do
+        @repository = @user.repositories.first
+      end
+
+      test "#owner" do
+        @repository.owner == "technicalpickles"
+      end
+
+      test "#forks" do
+        @repository.forks == 0
+      end
+
+      test "#description" do
+        @repository.name == "ambitious-sphinx"
+      end
+
+      test "#private" do
+        @repository.private.should == false
+      end
+
+      test "#url" do
+        @repository.url == "http://github.com/technicalpickles/ambitious-sphinx"
+      end
+
+      test "#watchers" do
+        @repository.watchers == 11
+      end
+
+      test "#fork" do
+        @repository.fork == false
+      end
+
+      test "#homepage" do
+        @repository.homepage == ""
+      end
+
     end
 
   end
