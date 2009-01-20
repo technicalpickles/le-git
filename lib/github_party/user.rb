@@ -12,5 +12,11 @@ module GitHub
     element :login,     String
 
     has_many :repositories, Repository
+
+    def self.find(username)
+      xml = RestClient.get("http://github.com/api/v1/xml/#{username}")
+      users = parse(xml)
+      users.first 
+    end
   end
 end
