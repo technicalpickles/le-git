@@ -80,7 +80,7 @@ class GitHubCommitTest < Test::Unit::TestCase
   context "For a project" do
     setup do
       FakeWeb.register_uri("http://github.com/api/v1/xml/caged/gitnub/commits/master", :response => File.join(File.dirname(__FILE__), 'fixtures', 'commits.xml')) 
-      @commits = GitHub::Commit.for_repository("caged", "gitnub")
+      @commits = GitHub::Commit.find("caged", "gitnub", :all)
     end
 
     test "size" do
