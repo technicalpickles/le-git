@@ -5,7 +5,7 @@ require 'rcov/rcovtask'
 
 begin
   require 'jeweler'
-  Jeweler.gemspec = Gem::Specification.new do |s|
+  Jeweler::Tasks.new do |s|
     s.name = "github-party"
     s.summary = "TODO"
     s.email = "josh@technicalpickles.com"
@@ -26,7 +26,7 @@ end
 
 Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title    = 'Jeweler'
+  rdoc.title    = 'GitHub Party'
   rdoc.options << '--line-numbers' << '--inline-source'
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
