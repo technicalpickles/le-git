@@ -1,0 +1,450 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.26
+Date: Tue, 20 Jan 2009 02:10:12 GMT
+Content-Type: application/xml; charset=utf-8
+Connection: keep-alive
+Set-Cookie: _github_ses=BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--884981fc5aa85daf318eeff084d98e2cff92578f; path=/; expires=Wed, 01 Jan 2020 08:00:00 GMT; HttpOnly
+Status: 200 OK
+X-Runtime: 105ms
+ETag: "c98d7bb37b73989366f70c9e0aa750fb"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 18475
+
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+  <name>Josh Nichols</name>
+  <repositories type="array">
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Ambition adapter for Sphinx</description>
+      <name>ambitious-sphinx</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/ambitious-sphinx</url>
+      <watchers type="integer">11</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>A 'planet' like feed aggregator using feedparser and erubis</description>
+      <name>feedbarn</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/feedbarn</url>
+      <watchers type="integer">3</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Ruby library for the del.icio.us API</description>
+      <name>deliciousr</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/deliciousr</url>
+      <watchers type="integer">2</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Extra tasks for vlad</description>
+      <name>vlad-extras</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/vlad-extras</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Tool for creating Gentoo ebuilds based on gems</description>
+      <name>g-gem</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/g-gem</url>
+      <watchers type="integer">4</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">6</forks>
+      <description>Rails generators which produce tests using shoulda instead of straight up Test::Unit. Other goodies as well.</description>
+      <name>shoulda_generator</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/shoulda_generator</url>
+      <watchers type="integer">40</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">1</forks>
+      <description>Manage markup close to home... right in the model! Caching, validation, etc</description>
+      <name>has_markup</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/has_markup</url>
+      <watchers type="integer">17</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>A helper method for loading files during test</description>
+      <name>file_fixture</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/file_fixture</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>A gitified copy of Peter Cooper's Rubyflow website</description>
+      <name>rubyflow</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/rubyflow</url>
+      <watchers type="integer">3</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://rubyflow.com</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">1</forks>
+      <description>Some minor conveniences for using factory_girl on a Rails project</description>
+      <name>factory_girl_on_rails</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/factory_girl_on_rails</url>
+      <watchers type="integer">37</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Makes tests easy on the fingers and the eyes</description>
+      <name>shoulda</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/shoulda</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://www.thoughtbot.com/projects/shoulda</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Website for bostonrb.org</description>
+      <name>bostonrb</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/bostonrb</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://bostonrb.org</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>A fresh Rails app, with some niceties and cleanup</description>
+      <name>pickles-on-rails</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/pickles-on-rails</url>
+      <watchers type="integer">3</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Easy and customizable generation of forged data.</description>
+      <name>forgery</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/forgery</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://sevenwire.com</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Simple authentication for Ruby web apps, with Shoulda and Factory Girl tests for its test suite.</description>
+      <name>clearance</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/clearance</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://thoughtbot.com</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Rails plugin to rescue common Rails exceptions, render an error with your look and feel, and return an appropriate HTTP status code</description>
+      <name>safety_valve</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/safety_valve</url>
+      <watchers type="integer">5</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <pledgie type="integer">2604</pledgie>
+      <forks type="integer">6</forks>
+      <description>Simple and opinionated helper for creating Rubygem projects on GitHub</description>
+      <name>jeweler</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/jeweler</url>
+      <watchers type="integer">98</watchers>
+      <fork type="boolean">false</fork>
+      <homepage>http://technicalpickles.github.com/jeweler</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>An ActionView helper for determining if content_for</description>
+      <name>content_given</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/content_given</url>
+      <watchers type="integer">2</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description></description>
+      <name>factory_girl</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/factory_girl</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>command line tweets and an api wrapper for twitter</description>
+      <name>twitter</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/twitter</url>
+      <watchers type="integer">2</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://twitter.rubyforge.org/</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Push jobs into starling</description>
+      <name>simplified_starling</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/simplified_starling</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>A command line ruby script to watch your team's results in the rumble</description>
+      <name>rails-rumble-monitor</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/rails-rumble-monitor</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Ruby/Git is a Ruby library that can be used to create, read and manipulate Git repositories by wrapping system calls to the git binary.</description>
+      <name>ruby-git</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/ruby-git</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://jointheconversation.org/rubygit/</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>It's a GitHub party and you're invited! Ruby wrapper for the GitHub API using HTTParty</description>
+      <name>github-party</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/github-party</url>
+      <watchers type="integer">2</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>The scripts used to build RubyGems on GitHub</description>
+      <name>github-gem-builder</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/github-gem-builder</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>A planet style feed aggregator written in Ruby</description>
+      <name>pluto</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/pluto</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Experiment for generating a jeweler-enabled project</description>
+      <name>the-perfect-gem</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/the-perfect-gem</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>evil twin of paperclip to ease migration from attachment_fu</description>
+      <name>paperclip-in-attachment_fus-clothing</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/paperclip-in-attachment_fus-clothing</url>
+      <watchers type="integer">3</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>SSL Requirement plugin</description>
+      <name>ssl_requirement</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/ssl_requirement</url>
+      <watchers type="integer">3</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://rubyonrails.org</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>A collection of useful rake tasks.</description>
+      <name>limerick_rake</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/limerick_rake</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://thoughtbot.com</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Fork of Blaine Cook's FakeWeb for fixes and new features</description>
+      <name>fakeweb</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/fakeweb</url>
+      <watchers type="integer">2</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://fakeweb.rubyforge.org</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>FriendlyId is a plugin for Ruby on Rails which allows you to work with human-friendly strings as well as numeric ids for ActiveRecords.</description>
+      <name>friendly_id</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/friendly_id</url>
+      <watchers type="integer">3</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://randomba.org</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Trying out cucumber</description>
+      <name>cucumbler</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/cucumbler</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">false</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">1</forks>
+      <name>the-sickest-gem-ever</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/the-sickest-gem-ever</url>
+      <watchers type="integer">2</watchers>
+      <fork type="boolean">false</fork>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>The easy and fun Continuous Integration server</description>
+      <name>integrity</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/integrity</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://integrityapp.com</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Port of technicalpickles.com to jekyll</description>
+      <name>technicalpickles.github.com</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/technicalpickles.github.com</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">false</fork>
+      <homepage>http://technicalpickles.github.com</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Database backed asynchronous priority queue -- Extracted from Shopify </description>
+      <name>delayed_job</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/delayed_job</url>
+      <watchers type="integer">1</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://www.shopify.com</homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>Jekyll is a blog-aware, static site generator in Ruby</description>
+      <name>jekyll</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/jekyll</url>
+      <watchers type="integer">2</watchers>
+      <fork type="boolean">true</fork>
+      <homepage></homepage>
+    </repository>
+    <repository>
+      <owner>technicalpickles</owner>
+      <forks type="integer">0</forks>
+      <description>flickr-fu is a ruby interface around the flickr REST api</description>
+      <name>flickr_fu</name>
+      <private type="boolean">false</private>
+      <url>http://github.com/technicalpickles/flickr_fu</url>
+      <watchers type="integer">2</watchers>
+      <fork type="boolean">true</fork>
+      <homepage>http://www.commonthread.com/projects/flickr_fu/rdoc/</homepage>
+    </repository>
+  </repositories>
+  <blog>http://technicalpickles.com</blog>
+  <login>technicalpickles</login>
+  <email>josh@technicalpickles.com</email>
+  <location>Boston, MA</location>
+</user>
