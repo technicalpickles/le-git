@@ -14,6 +14,5 @@ module GitHub
       commits = parse(xml)
       commits.first # TODO assert size of commits
     end
-
   end
 end

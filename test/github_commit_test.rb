@@ -53,12 +53,15 @@ class GitHubCommitTest < Test::Unit::TestCase
     end
 
     test "#commited_date" do
-      pending "need to figure out how datey stuff works"
-
+      pending "happymapper doesn't support dashes yet" do
+        @commit.commited_date.should == Date.parse("2008-03-02T16:45:41-08:00")
+      end
     end
 
     test "#authored_date" do
-      pending "need to figure out how datey stuff works"
+      pending "need to figure out how datey stuff works" do
+        @commit.authored_date.should == Date.parse("2008-03-02T16:45:41-08:00")
+      end
     end
 
     test "#tree" do
