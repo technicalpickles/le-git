@@ -2,6 +2,7 @@ require 'test/unit'
 require 'rubygems'
 require 'context'
 require 'matchy'
+require 'pending'
 require 'fake_web'
 
 FakeWeb.allow_net_connect = false

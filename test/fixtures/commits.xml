@@ -1,0 +1,649 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.26
+Date: Tue, 20 Jan 2009 03:36:58 GMT
+Content-Type: application/xml; charset=utf-8
+Connection: keep-alive
+Set-Cookie: _github_ses=BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--884981fc5aa85daf318eeff084d98e2cff92578f; path=/; expires=Wed, 01 Jan 2020 08:00:00 GMT; HttpOnly
+Status: 200 OK
+X-Runtime: 423ms
+ETag: "b2d9f12982e97489882e53428ae22be9"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 23324
+
+<?xml version="1.0" encoding="UTF-8"?>
+<commits type="array">
+  <commit>
+    <message>This time, lets actually add diff-lcs</message>
+    <parents type="array">
+      <parent>
+        <id>64cefa238db1d5ad62f0560378ddd9cdbfbbfe16</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/2f4522c15c8f4734ea7db07f4c355ade06a3f619</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>2f4522c15c8f4734ea7db07f4c355ade06a3f619</id>
+    <committed-date>2008-10-17T12:00:08-07:00</committed-date>
+    <authored-date>2008-10-17T12:00:08-07:00</authored-date>
+    <tree>489360e07f74e9b0eeea0d8ec07328d3b3a0a947</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Better placeholder for blame view</message>
+    <parents type="array">
+      <parent>
+        <id>f1c2cee2dc44bd83ee95217d578b68e561a3c67f</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/64cefa238db1d5ad62f0560378ddd9cdbfbbfe16</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>64cefa238db1d5ad62f0560378ddd9cdbfbbfe16</id>
+    <committed-date>2008-10-16T12:16:26-07:00</committed-date>
+    <authored-date>2008-10-16T12:16:26-07:00</authored-date>
+    <tree>f477be0c974d2ba1b9c48f535ae3742d33fc9d2b</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Move initialization stuff out of the applicaiton controller</message>
+    <parents type="array">
+      <parent>
+        <id>bc85914fa774d77bac403c8faba656098abb788b</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/f1c2cee2dc44bd83ee95217d578b68e561a3c67f</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>f1c2cee2dc44bd83ee95217d578b68e561a3c67f</id>
+    <committed-date>2008-10-15T16:38:00-07:00</committed-date>
+    <authored-date>2008-10-15T16:38:00-07:00</authored-date>
+    <tree>c2a8aa939c7fd2ba9530ac4f8072c1ecf48329e1</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Add loading message for blame view</message>
+    <parents type="array">
+      <parent>
+        <id>1c06b213f3ab2828ed65a754f51b822b618a7a7e</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/bc85914fa774d77bac403c8faba656098abb788b</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>bc85914fa774d77bac403c8faba656098abb788b</id>
+    <committed-date>2008-10-14T16:49:00-07:00</committed-date>
+    <authored-date>2008-10-14T16:49:00-07:00</authored-date>
+    <tree>d52ec273b41dea08d3991381b74e156199ab210b</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>update with newest grit api to select current branch on startup</message>
+    <parents type="array">
+      <parent>
+        <id>a0f044d7eba0ffe6a896274f38301086fb2564a9</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/1c06b213f3ab2828ed65a754f51b822b618a7a7e</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>1c06b213f3ab2828ed65a754f51b822b618a7a7e</id>
+    <committed-date>2008-10-14T16:19:17-07:00</committed-date>
+    <authored-date>2008-10-14T16:19:17-07:00</authored-date>
+    <tree>7376a993a18dc02b5c96baa1dcf27c45fc243d2c</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Show alert when you launch GitNub without the nub command from a dir that isn't a git repo</message>
+    <parents type="array">
+      <parent>
+        <id>2915656ffb87fd7a927b49715372a0f15254250b</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/a0f044d7eba0ffe6a896274f38301086fb2564a9</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>a0f044d7eba0ffe6a896274f38301086fb2564a9</id>
+    <committed-date>2008-10-13T13:14:18-07:00</committed-date>
+    <authored-date>2008-10-13T13:14:18-07:00</authored-date>
+    <tree>06ddb0fbd273752772d8b95e29ec56937e5a1adf</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Show sha1 when hovering over a line in the blame view</message>
+    <parents type="array">
+      <parent>
+        <id>453ea663048a8058fbf6fb7e8a2b4c70740d6523</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/2915656ffb87fd7a927b49715372a0f15254250b</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>2915656ffb87fd7a927b49715372a0f15254250b</id>
+    <committed-date>2008-10-06T00:17:38-07:00</committed-date>
+    <authored-date>2008-10-06T00:17:38-07:00</authored-date>
+    <tree>c1696b86224b78e623c27ad87e109b792da4460e</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Add placeholder text for blame view</message>
+    <parents type="array">
+      <parent>
+        <id>1066980ccd265b1e44bc1cb39a862e3be65c3a2f</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/453ea663048a8058fbf6fb7e8a2b4c70740d6523</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>453ea663048a8058fbf6fb7e8a2b4c70740d6523</id>
+    <committed-date>2008-10-05T23:15:12-07:00</committed-date>
+    <authored-date>2008-10-05T23:15:12-07:00</authored-date>
+    <tree>4fd0f91570046ece70b0afa2eb15815cafb8b380</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Merge branch 'blamegame'</message>
+    <parents type="array">
+      <parent>
+        <id>ee93959e672d8fe7fcc04ffa74c4371a25b34296</id>
+      </parent>
+      <parent>
+        <id>97d7f2a2075170950cf56715e32d66eecdc40f69</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/1066980ccd265b1e44bc1cb39a862e3be65c3a2f</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>1066980ccd265b1e44bc1cb39a862e3be65c3a2f</id>
+    <committed-date>2008-10-05T22:57:03-07:00</committed-date>
+    <authored-date>2008-10-05T22:57:03-07:00</authored-date>
+    <tree>03eeba0bef83ea4d40100c2b8c186a663fdf7276</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Updated grit</message>
+    <parents type="array">
+      <parent>
+        <id>9ad529d695799f9c28805b77f6b178b2287a46ac</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/ee93959e672d8fe7fcc04ffa74c4371a25b34296</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>ee93959e672d8fe7fcc04ffa74c4371a25b34296</id>
+    <committed-date>2008-10-05T22:52:56-07:00</committed-date>
+    <authored-date>2008-10-05T22:52:56-07:00</authored-date>
+    <tree>82acc22bafc7756a2e8448ef3713a5da71137a45</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Add line numbers to diff.  Fix scroller clipping on blame view</message>
+    <parents type="array">
+      <parent>
+        <id>da8e1a4a7c59dc4ed1a99e49d7ae32769b106ac1</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/97d7f2a2075170950cf56715e32d66eecdc40f69</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>97d7f2a2075170950cf56715e32d66eecdc40f69</id>
+    <committed-date>2008-10-05T22:51:53-07:00</committed-date>
+    <authored-date>2008-10-05T22:51:53-07:00</authored-date>
+    <tree>03eeba0bef83ea4d40100c2b8c186a663fdf7276</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Add last modified date</message>
+    <parents type="array">
+      <parent>
+        <id>ea24051e9f549a9457049849565f5d0627541c47</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/da8e1a4a7c59dc4ed1a99e49d7ae32769b106ac1</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>da8e1a4a7c59dc4ed1a99e49d7ae32769b106ac1</id>
+    <committed-date>2008-10-05T19:43:35-07:00</committed-date>
+    <authored-date>2008-10-05T19:43:35-07:00</authored-date>
+    <tree>e27bef0994d7e67fe2304fa34425862144fa0e2f</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Blame view working, still have a lot of polish left</message>
+    <parents type="array">
+      <parent>
+        <id>2b70bce1e33659a98654a6940553f4621a9074db</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/ea24051e9f549a9457049849565f5d0627541c47</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>ea24051e9f549a9457049849565f5d0627541c47</id>
+    <committed-date>2008-10-05T19:26:32-07:00</committed-date>
+    <authored-date>2008-10-05T19:26:32-07:00</authored-date>
+    <tree>905c5b9e282045ce2a322e3b9c9c3f6a4de0e33f</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Add blame view canvas and make sure searching uses strings insted of symbols</message>
+    <parents type="array">
+      <parent>
+        <id>9b900127ea95210803ccc8fb48da2e6dbfbb0349</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/2b70bce1e33659a98654a6940553f4621a9074db</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>2b70bce1e33659a98654a6940553f4621a9074db</id>
+    <committed-date>2008-10-04T15:19:17-07:00</committed-date>
+    <authored-date>2008-10-04T15:19:17-07:00</authored-date>
+    <tree>bbb4e42ad3e3df4a8291dfecdb8122b0fd50bc09</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>get rid of the ignored files  check for now.  It's way to slow. Need to come back to this later</message>
+    <parents type="array">
+      <parent>
+        <id>1463286d9bf53a87ea7bbfa49773b39e5a97720c</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/9b900127ea95210803ccc8fb48da2e6dbfbb0349</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>9b900127ea95210803ccc8fb48da2e6dbfbb0349</id>
+    <committed-date>2008-10-04T14:45:35-07:00</committed-date>
+    <authored-date>2008-10-04T14:45:35-07:00</authored-date>
+    <tree>d61cc84abca6a4374bd1e79ba0617d67c391a8f1</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Lazily initialize the data source and other changes</message>
+    <parents type="array">
+      <parent>
+        <id>cb998729c0961b41f71e96207938698385d92427</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/1463286d9bf53a87ea7bbfa49773b39e5a97720c</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>1463286d9bf53a87ea7bbfa49773b39e5a97720c</id>
+    <committed-date>2008-10-04T14:02:00-07:00</committed-date>
+    <authored-date>2008-10-04T14:02:00-07:00</authored-date>
+    <tree>8c1a3fd39398c57863a82f26b643db85457ccab0</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Automagically expand the first item in the outline view</message>
+    <parents type="array">
+      <parent>
+        <id>0b806fce97831ac2ac3fe3da438cb342321db031</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/cb998729c0961b41f71e96207938698385d92427</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>cb998729c0961b41f71e96207938698385d92427</id>
+    <committed-date>2008-10-02T16:25:08-07:00</committed-date>
+    <authored-date>2008-10-02T16:25:08-07:00</authored-date>
+    <tree>e6ab203b8eac7bb7485014b9242ac9cf3f959537</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>style repo name as a heading in the outline view. still needs work</message>
+    <parents type="array">
+      <parent>
+        <id>a73281b53ef4066222e5371ed503a23f02750ac9</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/0b806fce97831ac2ac3fe3da438cb342321db031</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>0b806fce97831ac2ac3fe3da438cb342321db031</id>
+    <committed-date>2008-10-02T15:29:45-07:00</committed-date>
+    <authored-date>2008-10-02T15:29:45-07:00</authored-date>
+    <tree>62b4a674006e99bafaa38c5737107ca1dc79861f</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Outline view now shows icons and is sized correctly</message>
+    <parents type="array">
+      <parent>
+        <id>8f0f09f78d6e4bfcf45023074aa3efd2fe20c3da</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/a73281b53ef4066222e5371ed503a23f02750ac9</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>a73281b53ef4066222e5371ed503a23f02750ac9</id>
+    <committed-date>2008-10-02T15:04:42-07:00</committed-date>
+    <authored-date>2008-10-02T15:04:42-07:00</authored-date>
+    <tree>9ebe679e0f8279a0a694a9c8817caf1c5b4f10dc</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Outline view now shows generic list of repo file system</message>
+    <parents type="array">
+      <parent>
+        <id>0c47f4a5a6cae93727833055c3670dee31232a85</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/8f0f09f78d6e4bfcf45023074aa3efd2fe20c3da</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>8f0f09f78d6e4bfcf45023074aa3efd2fe20c3da</id>
+    <committed-date>2008-10-01T17:45:33-07:00</committed-date>
+    <authored-date>2008-10-01T17:45:33-07:00</authored-date>
+    <tree>43c725302acf5858dd9ed16e61b3f3b6df7bbb3b</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Grit wants a string when fetching commits.  Lets comply</message>
+    <parents type="array">
+      <parent>
+        <id>8676e1d219cbd6be0a61f3b3213f3fabab7ceaa3</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/0c47f4a5a6cae93727833055c3670dee31232a85</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>0c47f4a5a6cae93727833055c3670dee31232a85</id>
+    <committed-date>2008-09-30T16:18:17-07:00</committed-date>
+    <authored-date>2008-09-30T16:18:17-07:00</authored-date>
+    <tree>86cc237ad0cea4b9a4298e8678b7c16423167a57</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Update grit to latest</message>
+    <parents type="array">
+      <parent>
+        <id>15434ab38a2db6c250d619d423773acec44ba863</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/8676e1d219cbd6be0a61f3b3213f3fabab7ceaa3</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>8676e1d219cbd6be0a61f3b3213f3fabab7ceaa3</id>
+    <committed-date>2008-09-30T16:15:21-07:00</committed-date>
+    <authored-date>2008-09-30T16:15:21-07:00</authored-date>
+    <tree>e41d6c598cf324d1df4bd70f0b6355ed73aacf75</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Add tab for blameview</message>
+    <parents type="array">
+      <parent>
+        <id>9ad529d695799f9c28805b77f6b178b2287a46ac</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/15434ab38a2db6c250d619d423773acec44ba863</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>15434ab38a2db6c250d619d423773acec44ba863</id>
+    <committed-date>2008-09-30T16:10:09-07:00</committed-date>
+    <authored-date>2008-09-30T16:10:09-07:00</authored-date>
+    <tree>d048af0b68fcc0b7327cc5da94550f3d52cda31e</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>updated grit</message>
+    <parents type="array">
+      <parent>
+        <id>864414b6acf345f9ce8735cc7b0f0621f34ccf29</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/9ad529d695799f9c28805b77f6b178b2287a46ac</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>9ad529d695799f9c28805b77f6b178b2287a46ac</id>
+    <committed-date>2008-09-25T11:33:12-07:00</committed-date>
+    <authored-date>2008-09-25T11:33:12-07:00</authored-date>
+    <tree>c7997e177d2332feda6f2661dafca3db277be234</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Add GitNubView, prepping for custom drag and drop operations</message>
+    <parents type="array">
+      <parent>
+        <id>add5c9476f720a58a29eb5107e77efd1dd09f5d1</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/864414b6acf345f9ce8735cc7b0f0621f34ccf29</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>864414b6acf345f9ce8735cc7b0f0621f34ccf29</id>
+    <committed-date>2008-08-27T23:41:32-07:00</committed-date>
+    <authored-date>2008-08-27T23:41:32-07:00</authored-date>
+    <tree>76c1891047cc34df57ebb1d8dae578657fa80015</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Reorganize project into specific directories</message>
+    <parents type="array">
+      <parent>
+        <id>cb3fdfc79fa0fd91ff38653c162eb046e18c13c1</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/add5c9476f720a58a29eb5107e77efd1dd09f5d1</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>add5c9476f720a58a29eb5107e77efd1dd09f5d1</id>
+    <committed-date>2008-08-27T01:05:17-07:00</committed-date>
+    <authored-date>2008-08-27T01:05:17-07:00</authored-date>
+    <tree>651c20f691adf9b47c4b767342d51acddd69a80d</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Fixes #27: Launching from a repo that hasn't had an initial import</message>
+    <parents type="array">
+      <parent>
+        <id>0812fc6ab092e9c4bf1e5957331a1357ecc6a3b1</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/cb3fdfc79fa0fd91ff38653c162eb046e18c13c1</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>cb3fdfc79fa0fd91ff38653c162eb046e18c13c1</id>
+    <committed-date>2008-08-22T10:30:30-07:00</committed-date>
+    <authored-date>2008-08-22T10:30:30-07:00</authored-date>
+    <tree>24f42fb94c83481f72884a7ae1a59652a4588bd8</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Bumped the version to 0.9.1</message>
+    <parents type="array">
+      <parent>
+        <id>a4fadf01f51b08897138642dd94217b8a941697a</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/0812fc6ab092e9c4bf1e5957331a1357ecc6a3b1</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>0812fc6ab092e9c4bf1e5957331a1357ecc6a3b1</id>
+    <committed-date>2008-08-05T18:45:01-07:00</committed-date>
+    <authored-date>2008-08-05T18:45:01-07:00</authored-date>
+    <tree>c548ed99d2d6824a7ca13ede6a9480665681c155</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Oops, left in a debug line</message>
+    <parents type="array">
+      <parent>
+        <id>1c29dfa5f074871565fb9ba7a8bbc23964573a39</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/a4fadf01f51b08897138642dd94217b8a941697a</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>a4fadf01f51b08897138642dd94217b8a941697a</id>
+    <committed-date>2008-08-05T18:06:57-07:00</committed-date>
+    <authored-date>2008-08-05T18:06:57-07:00</authored-date>
+    <tree>8c7f121ec73bdb04a620d3232cc60e66b2d2fc0c</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+  <commit>
+    <message>Fixes #19 LSOpenURLFromSpec and the gazillion duplicate versions of that ticket. yay
+"</message>
+    <parents type="array">
+      <parent>
+        <id>8f40c3e677bcf5a58caabf209f321284d812fb0a</id>
+      </parent>
+    </parents>
+    <url>http://github.com/Caged/gitnub/commit/1c29dfa5f074871565fb9ba7a8bbc23964573a39</url>
+    <author>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </author>
+    <id>1c29dfa5f074871565fb9ba7a8bbc23964573a39</id>
+    <committed-date>2008-08-05T18:05:29-07:00</committed-date>
+    <authored-date>2008-08-05T18:05:29-07:00</authored-date>
+    <tree>7319cfe3e89d79322e1395610b23239660c72f01</tree>
+    <committer>
+      <name>Justin Palmer</name>
+      <email>justin@activereload.net</email>
+    </committer>
+  </commit>
+</commits>
