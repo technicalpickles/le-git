@@ -33,4 +33,5 @@ Below is the [The GitHub API](http://github.com/guides/the-github-api), but usin
  * General
   * Try moving back to HTTParty
   * Most seem to support pagination
+  * Connect the classes. For example, repository.commits should hit the GitHub::Commit API
 
