@@ -2,14 +2,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{github-party}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Josh Nichols"]
   s.date = %q{2009-01-20}
   s.description = %q{TODO}
   s.email = %q{josh@technicalpickles.com}
-  s.files = ["VERSION.yml", "lib/github_party", "lib/github_party/commit.rb", "lib/github_party/repository.rb", "lib/github_party/user.rb", "lib/github_party.rb", "test/fixtures", "test/fixtures/commit.xml", "test/fixtures/commits.xml", "test/fixtures/search.xml", "test/fixtures/user.xml", "test/github_commit_test.rb", "test/github_repository_test.rb", "test/github_user_test.rb", "test/test_helper.rb"]
+  s.files = ["README.markdown", "VERSION.yml", "lib/github_party", "lib/github_party/commit.rb", "lib/github_party/repository.rb", "lib/github_party/user.rb", "lib/github_party.rb", "test/fixtures", "test/fixtures/commit.xml", "test/fixtures/commits.xml", "test/fixtures/search.xml", "test/fixtures/user.xml", "test/github_commit_test.rb", "test/github_repository_test.rb", "test/github_user_test.rb", "test/test_helper.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/technicalpickles/github-party/tree}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
