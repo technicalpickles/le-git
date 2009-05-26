@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Josh Nichols", "Dan Croak"]
   s.date = %q{2009-05-25}
-  s.description = %q{TODO}
+  s.description = %q{Ruby wrapper around Github API v2}
   s.email = %q{josh@technicalpickles.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.3}
-  s.summary = %q{TODO}
+  s.summary = %q{Ruby wrapper around Github API v2}
   s.test_files = [
     "test/github_commit_test.rb",
     "test/github_repository_test.rb",

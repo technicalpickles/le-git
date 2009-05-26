@@ -7,10 +7,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name        = "le-git"
-    s.summary     = "TODO"
+    s.summary     = "Ruby wrapper around Github API v2"
     s.email       = "josh@technicalpickles.com"
     s.homepage    = "http://github.com/dancroak/le-git"
-    s.description = "TODO"
+    s.description = "Ruby wrapper around Github API v2"
     s.authors     = ["Josh Nichols", "Dan Croak"]
     s.add_dependency "rest-client"
     s.add_dependency "happymapper"
