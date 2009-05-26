@@ -2,7 +2,7 @@ h1. Le Git
 
 bq. French for "Ruby wrapper around the Github API (v2)".
 
-Le Git provides a Ruby wrapper around the "The GitHub API":http://github.com/guides/the-github-api using "rest-client":http://rdoc.info/projects/adamwiggins/rest-client and "happymapper":http://rdoc.info/projects/jnunemaker/happymapper.
+Le Git provides a Ruby wrapper around the "The GitHub API":http://develop.github.com using "rest-client":http://rdoc.info/projects/adamwiggins/rest-client and "happymapper":http://rdoc.info/projects/jnunemaker/happymapper.
 
 h2. Example usage
 

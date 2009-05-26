@@ -1,73 +1,33 @@
 require File.join(File.dirname(__FILE__), '/test_helper.rb')
 
 class GitHubUserTest < Test::Unit::TestCase
-  context "A lookedup GitHub::User" do
+  context "A GitHub::User" do
     setup do
-      FakeWeb.register_uri('http://github.com/api/v1/xml/technicalpickles', :response => File.join(File.dirname(__FILE__), 'fixtures', 'user.xml'))
+      fixture_path = File.join(File.dirname(__FILE__), 'fixtures', 'user.xml')
+      FakeWeb.register_uri('http://github.com/api/v2/xml/user/search/dancroak',
+                           :response => fixture_path)
 
-      @user = GitHub::User.find('technicalpickles')
+      @user = GitHub::User.find('dancroak')
     end
 
     test "#name" do
-      @user.name.should == "Josh Nichols"
+      @user.name.should == "dancroak"
     end
 
-    test "#blog" do
-      @user.blog.should == "http://technicalpickles.com"
-    end
-
-    test "#login" do
-      @user.login.should == "technicalpickles"
-    end
-
-    test "#email" do
-      @user.email.should == "josh@technicalpickles.com"
+    test "#language" do
+      @user.language.should == "Ruby"
     end
 
     test "#location" do
-      @user.location.should == "Boston, MA"
+      @user.location.should == "Boston"
     end
 
-    test "#repositories size" do
-      @user.repositories.size.should == 39
+    test "#repos" do
+      @user.repos == 18
     end
 
-    context "#repositories first" do
-      setup do
-        @repository = @user.repositories.first
-      end
-
-      test "#owner" do
-        @repository.owner == "technicalpickles"
-      end
-
-      test "#forks" do
-        @repository.forks == 0
-      end
-
-      test "#description" do
-        @repository.name == "ambitious-sphinx"
-      end
-
-      test "#private" do
-        @repository.private.should == false
-      end
-
-      test "#url" do
-        @repository.url == "http://github.com/technicalpickles/ambitious-sphinx"
-      end
-
-      test "#watchers" do
-        @repository.watchers == 11
-      end
-
-      test "#fork" do
-        @repository.fork == false
-      end
-
-      test "#homepage" do
-        @repository.homepage == ""
-      end
+    test "#followers" do
+      @user.followers == 50
     end
   end
 end

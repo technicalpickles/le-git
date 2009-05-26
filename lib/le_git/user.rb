@@ -4,17 +4,14 @@ module GitHub
 
     tag "user"
 
-    element :company,   String
     element :name,      String
-    element :blog,      String
-    element :email,     String
+    element :language,  String
     element :location,  String
-    element :login,     String
-
-    has_many :repositories, Repository
+    element :repos,     Integer
+    element :followers, Integer
 
     def self.find(username)
-      xml = RestClient.get("http://github.com/api/v1/xml/#{username}")
+      xml = RestClient.get("http://github.com/api/v2/xml/user/search/#{username}")
       users = parse(xml)
       users.first
     end
