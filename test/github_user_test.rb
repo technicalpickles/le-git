@@ -12,7 +12,6 @@ class GitHubUserTest < Test::Unit::TestCase
       @user.name.should == "Josh Nichols"
     end
 
-
     test "#blog" do
       @user.blog.should == "http://technicalpickles.com"
     end
@@ -69,7 +68,6 @@ class GitHubUserTest < Test::Unit::TestCase
       test "#homepage" do
         @repository.homepage == ""
       end
-
     end
   end
 end

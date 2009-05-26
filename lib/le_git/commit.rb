@@ -4,10 +4,10 @@ module GitHub
 
     tag "commit"
 
-    element :url, String
-    element :tree, String
+    element :url,     String
+    element :tree,    String
     element :message, String
-    element :id, String
+    element :id,      String
 
     # Find commit(s) for a particular username/repository
     #
@@ -39,7 +39,7 @@ module GitHub
     end
 
     protected
-      
+
     def self.find_all(username, repository)
       xml = RestClient.get("http://github.com/api/v1/xml/#{username}/#{repository}/commits/master")
       parse(xml)
@@ -48,8 +48,7 @@ module GitHub
     def self.find_by_hash(username, repository, hash)
       xml = RestClient.get("http://github.com/api/v1/xml/#{username}/#{repository}/commit/#{hash}")
       commits = parse(xml)
-      commits.first # TODO assert size of commits
+      commits.first
     end
   end
-
 end

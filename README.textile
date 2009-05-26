@@ -1,0 +1,25 @@
+h1. Le Git
+
+bq. French for "Ruby wrapper around the Github API (v2)".
+
+Le Git provides a Ruby wrapper around the "The GitHub API":http://github.com/guides/the-github-api using "rest-client":http://rdoc.info/projects/adamwiggins/rest-client and "happymapper":http://rdoc.info/projects/jnunemaker/happymapper.
+
+h2. Example usage
+
+    require 'rubygems'
+    require 'le_git'
+
+    commits = GitHub::Commit.find "caged", "gitnub", :all
+
+    commit = GitHub::Commit.find "defunkt", "github-gem", "c26d4ce9807ecf57d3f9eefe19ae64e75bcaaa8b"
+
+    repositories = GitHub::Repository.search "merb"
+
+    user = GitHub::User.find "defunkt"
+
+h2. Maintainers
+
+Running the test suite requires:
+
+    sudo gem install happymapper fakeweb rcov jeremymcanally-context jeremymcanally-matchy jeremymcanally-pending thoughtbot-quietbacktrace redgreen
+

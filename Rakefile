@@ -6,12 +6,12 @@ require 'rcov/rcovtask'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
-    s.name = "github-party"
-    s.summary = "TODO"
-    s.email = "josh@technicalpickles.com"
-    s.homepage = "http://github.com/technicalpickles/github-party/tree"
+    s.name        = "le-git"
+    s.summary     = "TODO"
+    s.email       = "josh@technicalpickles.com"
+    s.homepage    = "http://github.com/dancroak/le-git"
     s.description = "TODO"
-    s.authors = ["Josh Nichols"]
+    s.authors     = ["Josh Nichols", "Dan Croak"]
     s.add_dependency "rest-client"
     s.add_dependency "happymapper"
   end
@@ -40,4 +40,4 @@ Rcov::RcovTask.new do |t|
   t.verbose = true
 end
 
-task :default => :rcov
+task :default => :test

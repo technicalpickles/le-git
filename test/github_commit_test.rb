@@ -1,7 +1,6 @@
 require File.join(File.dirname(__FILE__), '/test_helper.rb')
 
 class GitHubCommitTest < Test::Unit::TestCase
-
   context "A single commit" do
     setup do
       FakeWeb.register_uri("http://github.com/api/v1/xml/defunkt/github-gem/commit/c26d4ce9807ecf57d3f9eefe19ae64e75bcaaa8b", :response => File.join(File.dirname(__FILE__), 'fixtures', 'commit.xml'))
