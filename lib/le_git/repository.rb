@@ -1,21 +1,19 @@
-module GitHub
+module Github
   class Repository
     include HappyMapper
 
-    tag "repository"
-
-    element :owner,       String
-    element :forks,       Integer
+    element :description, String
     element :name,        String
     element :private,     Boolean
     element :url,         String
-    element :watchers,    Integer
     element :fork,        Boolean
+    element :watchers,    Integer
+    element :forks,       Integer
+    element :owner,       String
     element :homepage,    String
-    element :description, String
 
-    def self.search(query)
-      xml = RestClient.get("http://github.com/api/v1/xml/search/#{query}")
+    def self.user(name)
+      xml = RestClient.get("http://github.com/api/v2/xml/repos/show/#{name}")
       parse(xml)
     end
   end
