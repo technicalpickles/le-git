@@ -16,5 +16,9 @@ module Github
       xml = RestClient.get("http://github.com/api/v2/xml/repos/show/#{name}")
       parse(xml)
     end
+
+    def commits(branch = "master")
+      Github::Commit.master(owner, name)
+    end
   end
 end
