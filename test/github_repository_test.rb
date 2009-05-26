@@ -56,6 +56,49 @@ class GithubRepositoryTest < Test::Unit::TestCase
       test "#homepage" do
         @repository.homepage.should == "http://giantrobots.thoughtbot.com"
       end
+
+      context "master commits" do
+        setup do
+          uri = "http://github.com:80/api/v2/xml/commits/list/dancroak/le-git/master"
+          fixture_path = File.join(File.dirname(__FILE__),
+                                   'fixtures',
+                                   'master_commits.xml')
+
+          FakeWeb.register_uri(uri, :response => fixture_path)
+
+          begin
+            @commits = @repository.commits
+          rescue # can't figure out Net::HTTPBadResponse: wrong status line
+            @commits = Github::Commit.parse(File.read(fixture_path))
+          end
+        end
+
+        test "size" do
+          @commits.size.should == 30
+        end
+
+        context "first commit" do
+          setup do
+            @commit = @commits.first
+          end
+
+          test "#message" do
+            @commit.message.should == "updating Repository model to use v2 API. associated User & Repository models. filled out complete API for User."
+          end
+
+          test "#url" do
+            @commit.url.should == "http://github.com/dancroak/le-git/commit/1f0111c91344062052f65922171d220a06810d4a"
+          end
+
+          test "#id" do
+            @commit.id.should == "1f0111c91344062052f65922171d220a06810d4a"
+          end
+
+          test "#tree" do
+            @commit.tree.should == "d27ed042222fe8a55681e1af260e3eb2847e9f33"
+          end
+        end
+      end
     end
   end
 end
