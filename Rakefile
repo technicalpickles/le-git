@@ -14,11 +14,11 @@ begin
     s.authors     = ["Josh Nichols", "Dan Croak"]
     s.add_dependency "rest-client"
     s.add_dependency "happymapper"
+    s.files       = FileList["README.textile", "LICENSE", "{lib,rails}/**/*"]
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
 end
-
 
 Rake::TestTask.new do |t|
   t.libs << 'lib'

@@ -16,19 +16,11 @@ Gem::Specification.new do |s|
   s.files = [
     "LICENSE",
     "README.textile",
-    "Rakefile",
-    "VERSION.yml",
     "lib/le_git.rb",
     "lib/le_git/commit.rb",
     "lib/le_git/repository.rb",
     "lib/le_git/user.rb",
-    "test/fixtures/master_commits.xml",
-    "test/fixtures/user.xml",
-    "test/fixtures/user_repositories.xml",
-    "test/github_commit_test.rb",
-    "test/github_repository_test.rb",
-    "test/github_user_test.rb",
-    "test/test_helper.rb"
+    "rails/init.rb"
   ]
   s.homepage = %q{http://github.com/dancroak/le-git}
   s.rdoc_options = ["--charset=UTF-8"]
