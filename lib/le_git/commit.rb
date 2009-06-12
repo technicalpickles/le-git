@@ -7,7 +7,7 @@ module Github
     element :id,      String
     element :tree,    String
 
-    def self.master(repo_owner, repo_name)
+    def self.master(repo_owner, repo_name, branch = 'master')
       xml = list_commits_resource(repo_owner, repo_name).get
       parse(xml)
     end

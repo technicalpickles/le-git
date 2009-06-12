@@ -18,7 +18,7 @@ module Github
     end
 
     def commits(branch = "master")
-      Github::Commit.master(owner, name)
+      Github::Commit.master(owner, name, branch)
     end
 
     protected
