@@ -8,12 +8,12 @@ module Github
       api_resource["user/search/#{username}"]
     end
 
-    def list_commits_resource(username, repo, branch = 'master')
-      api_resource["commits/list/#{username}/#{repo}/#{branch}"]
+    def show_repo_resource(name)
+      api_resource["repos/show/#{name}"]
     end
 
-    def show_repo_resource(name)
-      api_resource["/repos/show/#{name}"]
+    def list_commits_resource(username, repo, branch = 'master')
+      api_resource["commits/list/#{username}/#{repo}/#{branch}"]
     end
   end
 end
