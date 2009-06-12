@@ -8,8 +8,11 @@ module Github
     element :tree,    String
 
     def self.master(repo_owner, repo_name)
-      xml = RestClient.get("http://github.com/api/v2/xml/commits/list/#{repo_owner}/#{repo_name}/master")
+      xml = list_commits_resource(repo_owner, repo_name).get
       parse(xml)
     end
+
+    protected
+      extend ApiResources
   end
 end

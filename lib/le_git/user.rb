@@ -17,7 +17,7 @@ module Github
     element :location,  String
 
     def self.find(username)
-      xml = RestClient.get("http://github.com/api/v2/xml/user/search/#{username}")
+      xml = search_user_resource(username).get
       users = parse(xml)
       users.first
     end
@@ -25,5 +25,8 @@ module Github
     def repositories
       Github::Repository.user(name)
     end
+
+    protected
+      extend ApiResources
   end
 end

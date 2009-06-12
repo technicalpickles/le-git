@@ -1,10 +1,9 @@
-require 'rubygems'
-
 require 'happymapper'
 require 'rest_client'
 
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__)))
-
-require 'le_git/user'
-require 'le_git/repository'
-require 'le_git/commit'
+module Github
+  autoload :User, 'le_git/user'
+  autoload :Repository, 'le_git/repository'
+  autoload :Commit, 'le_git/commit'
+  autoload :ApiResources, 'le_git/resources'
+end

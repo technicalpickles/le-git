@@ -13,12 +13,15 @@ module Github
     element :homepage,    String
 
     def self.user(name)
-      xml = RestClient.get("http://github.com/api/v2/xml/repos/show/#{name}")
+      xml = show_repo_resource(name).get
       parse(xml)
     end
 
     def commits(branch = "master")
       Github::Commit.master(owner, name)
     end
+
+    protected
+      extend ApiResources
   end
 end
