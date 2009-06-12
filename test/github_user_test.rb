@@ -1,6 +1,19 @@
 require File.join(File.dirname(__FILE__), '/test_helper.rb')
 
 class GithubUserTest < Test::Unit::TestCase
+  context "searching users" do
+    setup do
+      fixture_path = File.join(File.dirname(__FILE__), 'fixtures', 'search_users.xml')
+      FakeWeb.register_uri('http://github.com/api/v2/xml/user/search/tech',
+                           :response => fixture_path)
+
+      @users = Github::User.search('tech')
+    end
+
+    test "#size" do
+      @users.size.should == 19
+    end
+  end
   context "A Github::User" do
     setup do
       fixture_path = File.join(File.dirname(__FILE__), 'fixtures', 'user.xml')

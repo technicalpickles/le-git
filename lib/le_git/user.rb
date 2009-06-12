@@ -22,6 +22,11 @@ module Github
       users.first
     end
 
+    def self.search(username)
+      xml = search_user_resource(username).get
+      parse(xml)
+    end
+
     def repositories
       Github::Repository.user(name)
     end

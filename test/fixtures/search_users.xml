@@ -1,0 +1,300 @@
+HTTP/1.1 200 OK
+Server: nginx/0.6.26
+Date: Fri, 12 Jun 2009 02:48:44 GMT
+Content-Type: application/xml; charset=utf-8
+Connection: keep-alive
+Set-Cookie: _github_ses=BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--884981fc5aa85daf318eeff084d98e2cff92578f; path=/; expires=Wed, 01 Jan 2020 08:00:00 GMT; HttpOnly
+Status: 200 OK
+X-Runtime: 44ms
+ETag: "a38ca0c489cb661a9b3c160671435bf8"
+Cache-Control: private, max-age=0, must-revalidate
+Content-Length: 8970
+
+<?xml version="1.0" encoding="UTF-8"?>
+<users type="array">
+  <user>
+    <score type="float">2.3766692</score>
+    <name>techcrunch</name>
+    <actions type="integer">35</actions>
+    <language>PHP</language>
+    <followers type="integer">24</followers>
+    <username>techcrunch</username>
+    <type>user</type>
+    <fullname>TechCrunch</fullname>
+    <repos type="integer">2</repos>
+    <id>user-14080</id>
+    <pushed>2009-05-17T09:15:35.542Z</pushed>
+    <created>2008-06-17T19:10:49Z</created>
+    <location>Atherton, CA</location>
+  </user>
+  <user>
+    <score type="float">1.9008243</score>
+    <name>we4tech</name>
+    <actions type="integer">4842</actions>
+    <language>Java</language>
+    <followers type="integer">1</followers>
+    <username>we4tech</username>
+    <type>user</type>
+    <fullname>nhm tanveer hossain khan (hasan)</fullname>
+    <repos type="integer">8</repos>
+    <id>user-4054</id>
+    <pushed>2009-03-07T09:15:17.745Z</pushed>
+    <created>2008-03-28T04:05:16Z</created>
+    <location>dhaka, bangladesh</location>
+  </user>
+  <user>
+    <score type="float">2.3766692</score>
+    <name>coretech</name>
+    <actions type="integer">35</actions>
+    <language></language>
+    <followers type="integer">1</followers>
+    <username>coretech</username>
+    <type>user</type>
+    <fullname>CoreTech Inc.</fullname>
+    <repos type="integer">0</repos>
+    <id>user-18749</id>
+    <pushed>2009-05-22T14:15:14.864Z</pushed>
+    <created>2008-07-29T01:56:37Z</created>
+    <location>New Jersey</location>
+  </user>
+  <user>
+    <score type="float">1.9008243</score>
+    <name>CyberTech</name>
+    <actions type="integer">1</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>CyberTech</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">0</repos>
+    <id>user-48133</id>
+    <pushed>2009-01-31T01:03:48.528Z</pushed>
+    <created>2009-01-21T02:18:09Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">2.3766692</score>
+    <name>kigoyama</name>
+    <actions type="integer">66</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>kigoyama</username>
+    <type>user</type>
+    <fullname>TechCrunch Japan</fullname>
+    <repos type="integer">0</repos>
+    <id>user-37955</id>
+    <pushed>2009-02-18T02:15:29.497Z</pushed>
+    <created>2008-12-03T04:36:37Z</created>
+    <location>Tokyo JP</location>
+  </user>
+  <user>
+    <score type="float">1.9008243</score>
+    <name>RetroTech1541</name>
+    <actions type="integer">1</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>RetroTech1541</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">1</repos>
+    <id>user-60014</id>
+    <pushed>2009-03-04T09:15:23.658Z</pushed>
+    <created>2009-03-04T08:50:22Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">2.3766692</score>
+    <name>techkid</name>
+    <actions type="integer">1</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>techkid</username>
+    <type>user</type>
+    <fullname>TechKid</fullname>
+    <repos type="integer">0</repos>
+    <id>user-63247</id>
+    <pushed>2009-03-14T00:15:30.929Z</pushed>
+    <created>2009-03-13T23:27:47Z</created>
+    <location>United Kingdom</location>
+  </user>
+  <user>
+    <score type="float">1.9008243</score>
+    <name>TechSupport</name>
+    <actions type="integer">1</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>TechSupport</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">0</repos>
+    <id>user-70746</id>
+    <pushed>2009-04-05T19:15:14.705Z</pushed>
+    <created>2009-04-05T18:17:00Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">1.9008243</score>
+    <name>TkTech</name>
+    <actions type="integer">1</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>TkTech</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">0</repos>
+    <id>user-72590</id>
+    <pushed>2009-04-10T22:15:18.219Z</pushed>
+    <created>2009-04-10T22:05:14Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">1.9008243</score>
+    <name>b2tech</name>
+    <actions type="integer">1</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>b2tech</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">0</repos>
+    <id>user-75815</id>
+    <pushed>2009-04-20T18:15:16.692Z</pushed>
+    <created>2009-04-20T18:11:02Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">1.9008243</score>
+    <name>KeatonTech</name>
+    <actions type="integer">0</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>KeatonTech</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">0</repos>
+    <id>user-78086</id>
+    <pushed>2009-04-26T21:15:14.849Z</pushed>
+    <created>2009-04-26T20:50:06Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">2.3766692</score>
+    <name>dreambank</name>
+    <actions type="integer">24</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>dreambank</username>
+    <type>user</type>
+    <fullname>DreamBank Tech</fullname>
+    <repos type="integer">0</repos>
+    <id>user-74199</id>
+    <pushed>2009-05-15T09:15:44.411Z</pushed>
+    <created>2009-04-15T20:16:43Z</created>
+    <location>Vancouver, BC</location>
+  </user>
+  <user>
+    <score type="float">1.9008243</score>
+    <name>SlateTech</name>
+    <actions type="integer">0</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>SlateTech</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">1</repos>
+    <id>user-86006</id>
+    <pushed>2009-05-18T19:15:23.256Z</pushed>
+    <created>2009-05-18T18:56:49Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">1.697463</score>
+    <name>WizWareTech-Shea</name>
+    <actions type="integer">35</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>WizWareTech-Shea</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">0</repos>
+    <id>user-13117</id>
+    <pushed>2009-05-20T05:15:15.694Z</pushed>
+    <created>2008-06-09T17:33:15Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">1.4941018</score>
+    <name>WizWareTech-Shea-Dev1</name>
+    <actions type="integer">35</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>WizWareTech-Shea-Dev1</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">0</repos>
+    <id>user-21161</id>
+    <pushed>2009-05-20T05:15:15.846Z</pushed>
+    <created>2008-08-19T17:00:57Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">1.9008243</score>
+    <name>DiOssTech</name>
+    <actions type="integer">35</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>DiOssTech</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">0</repos>
+    <id>user-63969</id>
+    <pushed>2009-05-23T21:15:15.828Z</pushed>
+    <created>2009-03-16T16:38:32Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">1.9008243</score>
+    <name>WizWareTech</name>
+    <actions type="integer">26</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>WizWareTech</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">0</repos>
+    <id>user-13114</id>
+    <pushed>2009-06-01T09:15:25.658Z</pushed>
+    <created>2008-06-09T17:28:51Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">2.3075469</score>
+    <name>tech1</name>
+    <actions type="integer">0</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>tech1</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">0</repos>
+    <id>user-92833</id>
+    <pushed>2009-06-07T14:15:17.989Z</pushed>
+    <created>2009-06-07T14:02:06Z</created>
+    <location></location>
+  </user>
+  <user>
+    <score type="float">1.9008243</score>
+    <name>tech-loanmarq</name>
+    <actions type="integer">14</actions>
+    <language></language>
+    <followers type="integer">0</followers>
+    <username>tech-loanmarq</username>
+    <type>user</type>
+    <fullname></fullname>
+    <repos type="integer">0</repos>
+    <id>user-90318</id>
+    <pushed>2009-06-08T21:15:21.859Z</pushed>
+    <created>2009-05-31T04:11:57Z</created>
+    <location></location>
+  </user>
+</users>
