@@ -55,15 +55,11 @@ class GithubCommitTest < Test::Unit::TestCase
     end
 
     test "#commited_date" do
-      pending "HappyMapper can't handle nodes with dashes" do
-        @commit.committed_date.should == Date.parse("2009-05-25T19:11:27-07:00")
-      end
+      @commit.committed_date.should == DateTime.parse("2009-05-25T19:11:27-07:00")
     end
 
     test "#authored_date" do
-      pending "HappyMapper can't handle nodes with dashes" do
-        @commit.authored_date.should == Date.parse("2009-05-25T19:11:27-07:00")
-      end
+      @commit.authored_date.should == DateTime.parse("2009-05-25T19:11:27-07:00")
     end
 
     test "#tree" do
@@ -78,7 +74,7 @@ class GithubCommitTest < Test::Unit::TestCase
     end
   end
 
-  context "Commits for a user's repository's master branch" do
+  context "Commits for a user's repository's branch" do
     setup do
       uri = "http://github.com:80/api/v2/xml/commits/list/dancroak/le-git/master"
       fixture_path = File.join(File.dirname(__FILE__),
@@ -88,7 +84,7 @@ class GithubCommitTest < Test::Unit::TestCase
       FakeWeb.register_uri(uri, :response => fixture_path)
 
       begin
-        @commits = Github::Commit.master("dancroak", "le-git")
+        @commits = Github::Commit.branch("dancroak", "le-git", "master")
       rescue # can't figure out Net::HTTPBadResponse: wrong status line
         @commits = Github::Commit.parse(File.read(fixture_path))
       end
@@ -97,5 +93,11 @@ class GithubCommitTest < Test::Unit::TestCase
     test "size" do
       @commits.size.should == 30
     end
+  end
+
+  test "Commit's for user's repository's master" do
+    commits = Object.new
+    mock(Github::Commit).branch("dancroak", "le-git", "master") { commits }
+    Github::Commit.master("dancroak", "le-git").should == commits
   end
 end
