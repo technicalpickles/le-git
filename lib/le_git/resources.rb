@@ -12,6 +12,10 @@ module Github
       api_resource["repos/show/#{name}"]
     end
 
+    def show_user_resource(username)
+      api_resource["user/show/#{username}"]
+    end
+
     def list_commits_resource(username, repo, branch = 'master')
       api_resource["commits/list/#{username}/#{repo}/#{branch}"]
     end

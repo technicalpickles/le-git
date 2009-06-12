@@ -1,30 +1,27 @@
 HTTP/1.1 200 OK
-Server: nginx/0.6.26
-Date: Tue, 26 May 2009 01:11:48 GMT
+Server: nginx/0.6.31
+Date: Fri, 12 Jun 2009 03:01:06 GMT
 Content-Type: application/xml; charset=utf-8
 Connection: keep-alive
 Set-Cookie: _github_ses=BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--884981fc5aa85daf318eeff084d98e2cff92578f; path=/; expires=Wed, 01 Jan 2020 08:00:00 GMT; HttpOnly
 Status: 200 OK
-X-Runtime: 48ms
-ETag: "d5dd5ae94c3a305435538867f782b8d5"
+X-Runtime: 35ms
+ETag: "576f47c3f35e85e9f5d657e9b1b8593e"
 Cache-Control: private, max-age=0, must-revalidate
-Content-Length: 544
+Content-Length: 568
 
 <?xml version="1.0" encoding="UTF-8"?>
-<users type="array">
-  <user>
-    <score type="float">3.8653853</score>
-    <name>dancroak</name>
-    <actions type="integer">35</actions>
-    <language>Ruby</language>
-    <followers type="integer">50</followers>
-    <username>dancroak</username>
-    <type>user</type>
-    <fullname>Dan Croak</fullname>
-    <repos type="integer">18</repos>
-    <id>user-198</id>
-    <pushed>2009-05-22T17:15:11.534Z</pushed>
-    <created>2008-02-13T02:48:35Z</created>
-    <location>Boston</location>
-  </user>
-</users>
+<user>
+  <name>Dan Croak</name>
+  <company>thoughtbot</company>
+  <following-count type="integer">76</following-count>
+  <public-gist-count type="integer">52</public-gist-count>
+  <public-repo-count type="integer">21</public-repo-count>
+  <blog>http://dancroak.com</blog>
+  <id type="integer">198</id>
+  <followers-count type="integer">52</followers-count>
+  <login>dancroak</login>
+  <location>Boston</location>
+  <email>dcroak@thoughtbot.com</email>
+  <created-at type="datetime">2008-02-12T18:48:35-08:00</created-at>
+</user>

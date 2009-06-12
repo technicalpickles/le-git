@@ -14,21 +14,31 @@ class GithubUserTest < Test::Unit::TestCase
       @users.size.should == 19
     end
   end
-  context "A Github::User" do
-    setup do
-      fixture_path = File.join(File.dirname(__FILE__), 'fixtures', 'user.xml')
-      FakeWeb.register_uri('http://github.com/api/v2/xml/user/search/dancroak',
-                           :response => fixture_path)
 
-      @user = Github::User.find('dancroak')
+  context "parsing a Github::User search result" do
+    setup do
+      @xml = <<-XML
+        <user>
+          <score type="float">2.3766692</score>
+          <name>techcrunch</name>
+          <actions type="integer">35</actions>
+          <language>PHP</language>
+          <followers type="integer">24</followers>
+          <username>techcrunch</username>
+          <type>user</type>
+          <fullname>TechCrunch</fullname>
+          <repos type="integer">2</repos>
+          <id>user-14080</id>
+          <pushed>2009-05-17T09:15:35.542Z</pushed>
+          <created>2008-06-17T19:10:49Z</created>
+          <location>Atherton, CA</location>
+        </user>
+      XML
+      @user = Github::User.parse(@xml)
     end
 
     test "#score" do
-      @user.score.should == 3.8653853
-    end
-
-    test "#name" do
-      @user.name.should == "dancroak"
+      @user.score.should == 2.3766692
     end
 
     test "#actions" do
@@ -36,101 +46,124 @@ class GithubUserTest < Test::Unit::TestCase
     end
 
     test "#language" do
-      @user.language.should == "Ruby"
-    end
-
-    test "#followers" do
-      @user.followers.should == 50
+      @user.language.should == "PHP"
     end
 
     test "#username" do
-      @user.username.should == "dancroak"
-    end
-
-    test "#type" do
-      @user.type.should == "user"
+      @user.username.should == "techcrunch"
     end
 
     test "#fullname" do
-      @user.fullname.should == "Dan Croak"
-    end
-
-    test "#repos" do
-      @user.repos.should == 18
+      @user.fullname.should == "TechCrunch"
     end
 
     test "#id" do
-      @user.id.should == "user-198"
+      @user.id.should == "user-14080"
     end
 
     test "#pushed" do
-      @user.pushed.to_s.should == DateTime.new(2009, 5, 22, 17, 15, 11).to_s
+      @user.pushed.should == DateTime.parse("2009-05-17T09:15:35.542Z")
     end
 
     test "#created" do
-      @user.created.to_s.should == DateTime.new(2008, 2, 13, 2, 48, 35).to_s
+      @user.created.should == DateTime.parse("2008-06-17T19:10:49Z")
+    end
+
+    test "#location" do
+      @user.location.should == "Atherton, CA"
+    end
+
+  end
+
+  context "parsing a found Github::User" do
+    setup do
+      @xml = <<-XML
+        <user>
+          <name>Dan Croak</name>
+          <company>thoughtbot</company>
+          <following-count type="integer">76</following-count>
+          <public-gist-count type="integer">52</public-gist-count>
+          <public-repo-count type="integer">21</public-repo-count>
+          <blog>http://dancroak.com</blog>
+          <id type="integer">198</id>
+          <followers-count type="integer">52</followers-count>
+          <login>dancroak</login>
+          <location>Boston</location>
+          <email>dcroak@thoughtbot.com</email>
+          <created-at type="datetime">2008-02-12T18:48:35-08:00</created-at>
+        </user>
+      XML
+
+      @user = Github::User.parse(@xml)
+    end
+
+    test "#name" do
+      @user.name.should == "Dan Croak"
+    end
+
+    test "#company" do
+      @user.company.should == "thoughtbot"
+    end
+
+    test "#following_count" do
+      @user.following_count.should == 76
+    end
+
+    test "#public_gist_count" do
+      @user.public_gist_count.should == 52
+    end
+
+    test "#public_repo_count" do
+      @user.public_repo_count.should == 21
+    end
+
+    test "#blog" do
+      @user.blog.should == "http://dancroak.com"
+    end
+
+    test "#id" do
+      @user.id.should == "198"
+    end
+
+    test "#followers_count" do
+      @user.followers_count.should == 52
+    end
+
+    test "#login" do
+      @user.login.should == "dancroak"
     end
 
     test "#location" do
       @user.location.should == "Boston"
     end
 
-    context "GETing #repositories" do
-      setup do
-        fixture_path = File.join(File.dirname(__FILE__),
-                                 'fixtures',
-                                 'user_repositories.xml')
-        FakeWeb.register_uri('http://github.com/api/v2/xml/repos/show/dancroak',
-                             :response => fixture_path)
-
-        @repositories = @user.repositories
-      end
-
-      test "size" do
-        @repositories.size.should == 19
-      end
-
-      context "first" do
-        setup do
-          @repository = @repositories.first
-        end
-
-        test "#description" do
-          @repository.description.should == "Rails plugin. Force major browsers (IE, Firefox, Safari) to reload a page, even when triggered by 'back' button."
-        end
-
-        test "#name" do
-          @repository.name.should == "no_cache"
-        end
-
-        test "#private" do
-          @repository.private.should == false
-        end
-
-        test "#url" do
-          @repository.url.should == "http://github.com/dancroak/no_cache"
-        end
-
-        test "#fork" do
-          @repository.fork.should == false
-        end
-
-        test "#watchers" do
-          @repository.watchers.should == 10
-        end
-
-        test "#forks" do
-          @repository.forks.should == 0
-        end
-
-        test "#owner" do
-          @repository.owner.should == "dancroak"
-        end
-
-        test "#homepage" do
-          @repository.homepage.should == "http://giantrobots.thoughtbot.com"
-        end
-      end
+    test "#email" do
+      @user.email.should == "dcroak@thoughtbot.com"
     end
+
+    test "#created_at" do
+      @user.created_at.should == DateTime.parse("2008-02-12T18:48:35-08:00")
+    end
+  end
+
+  context "A found Github::User" do
+    setup do
+      fixture_path = File.join(File.dirname(__FILE__), 'fixtures', 'user.xml')
+      FakeWeb.register_uri('http://github.com/api/v2/xml/user/show/dancroak',
+                           :response => fixture_path)
+
+      @user = Github::User.find('dancroak')
+    end
+
+    test "returned kind" do
+      @user.class.should == Github::User
+    end
+
+    test "#repositories" do
+      repositories = Object.new
+      mock(Github::Repository).user(@user.login) { repositories }
+      @user.repositories.should == repositories
+    end
+
   end
 end
