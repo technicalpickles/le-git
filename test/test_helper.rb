@@ -17,7 +17,7 @@ require 'pending'
 require 'rr'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib') )
-require 'le_git'
+require 'le-git'
 
 class Test::Unit::TestCase
   include RR::Adapters::TestUnit unless include?(RR::Adapters::TestUnit)

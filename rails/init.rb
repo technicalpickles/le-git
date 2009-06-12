@@ -1,1 +1,1 @@
-require 'le_git'
+require 'le-git'

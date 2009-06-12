@@ -85,13 +85,13 @@ class GithubRepositoryTest < Test::Unit::TestCase
 
       test "#commits" do
         commits = Object.new
-        mock(Github::Commit).master(@repository.owner, @repository.name, 'master') { commits }
+        mock(Github::Commit).branch(@repository.owner, @repository.name, 'master') { commits }
         @repository.commits.should == commits
       end
 
       test "#commits(redesign)" do
         commits = Object.new
-        mock(Github::Commit).master(@repository.owner, @repository.name, 'redesign') { commits }
+        mock(Github::Commit).branch(@repository.owner, @repository.name, 'redesign') { commits }
         @repository.commits('redesign').should == commits
 
       end
