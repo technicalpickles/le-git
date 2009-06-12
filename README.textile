@@ -4,12 +4,17 @@ bq. French for "Ruby wrapper around the Github API (v2)".
 
 Le Git provides a Ruby wrapper around the "The Github API":http://develop.github.com using "rest-client":http://rdoc.info/projects/adamwiggins/rest-client and "happymapper":http://rdoc.info/projects/jnunemaker/happymapper.
 
+h2. Installing
+
+<pre>
+  gem sources -a http://gems.github.com
+  sudo gem install technicalpickles-le-git
+</pre>
+
 h2. Example usage
 
 <pre>
-  require 'rubygems'
-  require 'le_git'
-
+  $ irb -rrubygems -rle-git
   >> user = Github::User.find("dancroak")
   => #<Github::User:0x110655c @followers=50, @location="Boston", @repos=18, @language="Ruby", @created=#<DateTime: 42413926183/17280,0,2299161>, type"user", fullname"Dan Croak", actions35, name"dancroak", pushed#<DateTime: 106054886255767/43200000,0,2299161, @username="dancroak", @score=3.8655705, @id="user-198">
 
