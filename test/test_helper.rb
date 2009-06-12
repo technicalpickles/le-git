@@ -8,8 +8,8 @@ FakeWeb.allow_net_connect = false
 
 CONTEXT_NOISE = %w(context)
 
-backtrace_cleaner = QuietBacktrace::BacktraceCleaner.new
-backtrace_cleaner.add_silencer { |line| line.include?(CONTEXT_NOISE) }
+#backtrace_cleaner = QuietBacktrace::BacktraceCleaner.new
+#backtrace_cleaner.add_silencer { |line| line.include?(CONTEXT_NOISE) }
 
 require 'context'
 require 'matchy'
